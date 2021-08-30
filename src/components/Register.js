@@ -47,9 +47,6 @@ class Register extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				{/* Display Header */}
-				<Header history={this.props.history} />
-
 				{/* Display Register fields */}
 				<div className='flex-container'>
 					<div className='register-container container'>

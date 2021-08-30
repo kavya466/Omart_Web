@@ -1,0 +1,30 @@
+.topbanner {
+	background: #a39594;
+	text-align: center;
+}
+.noticontainer {
+	padding: 5px 0px;
+}
+.offercode {
+	color: black;
+	background: #fff;
+	padding: 2px;
+	border-radius: 5px;
+}
+.topbanner p {
+	font-size: 11px;
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.8px;
+	margin: 0;
+	font-weight: bolder;
+}
+
+@media screen and (max-width: 1023px) {
+	.topbanner p {
+		line-height: 22px;
+		font-size: 10px;
+		letter-spacing: 0.5px;
+	}
+}

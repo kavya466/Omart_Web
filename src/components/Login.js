@@ -3,7 +3,7 @@ import { Button, Input, message } from 'antd'
 import React from 'react'
 import { withRouter } from 'react-router-dom'
 import { config } from '../App'
-import Footer from './Footer'
+
 import Header from './Header'
 
 /**
@@ -20,6 +20,7 @@ import Header from './Header'
  */
 class Login extends React.Component {
 	constructor() {
+		console.log('login')
 		super()
 		this.state = {
 			loading: false,
@@ -43,9 +44,6 @@ class Login extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				{/* Display Header */}
-				<Header history={this.props.history} />
-
 				{/* Display Login fields */}
 				<div className='flex-container'>
 					<div className='login-container container'>
@@ -82,9 +80,6 @@ class Login extends React.Component {
 						</Button>
 					</div>
 				</div>
-
-				{/* Display the footer */}
-				<Footer></Footer>
 			</React.Fragment>
 		)
 	}

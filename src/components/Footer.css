@@ -1,10 +1,26 @@
 .footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background: #1e2833;
-  text-align: center;
-  height: 100px;
-  z-index: 2;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: #fff8f5;
+	border-top: 1px burlywood solid;
+	text-align: center;
+	height: 250px;
+	z-index: 2;
+}
+.footer-content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.footer-item {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	padding: 5px;
+	text-transform: uppercase;
+	color: #333;
+	letter-spacing: 0.5px;
+	font-weight: bolder;
 }
