@@ -8,17 +8,18 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "antd": "^4.6.4",
+    "cross-env": "^7.0.3",
     "enzyme-adapter-react-16": "^1.15.3",
     "history": "^5.0.0",
     "jest-junit": "^11.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1",
+    "react-scripts": "^1.1.5",
     "react-test-renderer": "^16.13.1"
   },
   "scripts": {
-    "start": "PORT=8081 react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

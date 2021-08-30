@@ -1,0 +1,7 @@
+1. Add omart icon
+2. Add OMART text in welcome page
+3. Finalize on the color theme
+
+
+Learn
+1.Know more about Robots.txt
