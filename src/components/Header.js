@@ -4,7 +4,8 @@ import React from 'react'
 
 import Notification from './Notification'
 
-import './Header.css'
+import '../css/Header.css'
+import '../css/Main.css'
 
 export default class Header extends React.Component {
 	root = () => {
@@ -85,14 +86,10 @@ export default class Header extends React.Component {
 						) : (
 							<React.Fragment>
 								<Link to='/products'>
-									<div className='header-link' onClick={this.explore}>
-										Explore
-									</div>
+									<div className='header-link'>Explore</div>
 								</Link>
 								<Link to='/login'>
-									<div className='header-link' onClick={this.login}>
-										Login
-									</div>
+									<div className='header-link'>Login</div>
 								</Link>
 								<Link to='/register'>
 									<div className='header-link'>

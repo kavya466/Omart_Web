@@ -23,9 +23,7 @@ export default function App(props) {
 	return (
 		<div className='App'>
 			<Header history={['/register']} />
-			{/* TODO: CRIO_TASK_MODULE_UNDERSTANDING_BASICS - To add route for /register */}
-
-			{/* TODO: CRIO_TASK_MODULE_UNDERSTANDING_BASICS - To add route for /login */}
+	
 			<Switch>
 				<Route path='/register'>
 					<Register />

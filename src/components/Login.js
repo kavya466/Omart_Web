@@ -4,8 +4,6 @@ import React from 'react'
 import { withRouter } from 'react-router-dom'
 import { config } from '../App'
 
-import Header from './Header'
-
 /**
  * @class Login component handles the Login page UI and functionality
  *
@@ -29,13 +27,9 @@ class Login extends React.Component {
 		}
 	}
 
-	// TODO: CRIO_TASK_MODULE_UNDERSTANDING_BASICS - Implement the login() function to display a message, "Login logic not implemented yet"
-	/**
-	 * Definition for login handler
-	 * This is the function that is called when the user clicks on the login button or submits the login form
-	 *    - Display a message, "Login logic not implemented yet"
-	 */
-	login = async () => {}
+	login = async () => {
+		message.info('Login logic not implemented yet')
+	}
 
 	/**
 	 * JSX and HTML goes here

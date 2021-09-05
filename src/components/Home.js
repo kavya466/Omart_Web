@@ -1,7 +1,7 @@
 import { Button } from 'antd'
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './Home.css'
+import '../css/Home.css'
 
 export default function App() {
 	return (
@@ -27,7 +27,6 @@ export default function App() {
 							</Button>
 						</Link>
 
-						{/* TODO: CRIO_TASK_MODULE_UNDERSTANDING_BASICS - Add a Login button */}
 						<Link to='/login'>
 							<Button
 								id='login-button'

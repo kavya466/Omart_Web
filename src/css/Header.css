@@ -33,15 +33,3 @@
 .header-info {
 	padding-right: 2em;
 }
-.header-link {
-	padding: 0em 1em;
-	cursor: pointer;
-	text-transform: uppercase;
-	color: #333;
-	letter-spacing: 0.5px;
-	font-weight: bolder;
-}
-
-.header-link:hover {
-	color: #cfb385;
-}
